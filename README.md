@@ -8,36 +8,37 @@ Este projeto tem como objetivo automatizar tarefas diárias utilizando scripts d
 
 ### Task 1: Alias para Inicializar Projetos ACZG
 
-- **Alias**: `aczginitproj`
+**Alias** : `aczginitproj`
 - Cria uma pasta para o projeto em um caminho especificado.
 - Inicializa um repositório Git na pasta do projeto.
 - Adiciona um arquivo `README.md` com o nome do projeto e faz o primeiro commit no Git.
 
-### Task 2: Alias para Gerenciamento de Branches
+### Task 2: Aliases para Gerenciamento de Branches
 
-#### - `aczginit`
+#### **Alias** : `aczginit`
 - Mostra o status do repositório Git.
 - Cria uma nova branch com o padrão `feat-$nomeEntrega`.
 - Lista todas as branches locais e remotas.
 
-#### - `aczgfinish`
+#### **Alias** : `aczgfinish`
 - Faz o checkout na branch `master`.
 - Realiza o merge da branch da feature na `master`.
 - Deleta a branch da feature localmente e remotamente.
 
 ### Task 3: Mini Pipeline de Continuous Integration (CI)
 
+**Alias** : `pipeline.sh`
 - Define cron jobs para automatizar a execução de testes unitários de projetos Gradle, armazenar logs e enviar alertas em caso de sucesso ou falha.
 - O cron job também pode ser configurado para realizar compilação e execução de projetos.
 
 ### Task 4: Alias para Monitorar Logs
 
-- **Alias**: `aczglog`
+**Alias** : `aczglog`
 - Exibe no terminal logs relacionados à execução dos testes da mini pipeline de CI.
 
 ### Task 5: Script de Configuração do Ambiente
 
-- **Script**: `configurarAmbiente.sh`
+**Script** : `configurarAmbiente.sh`
 - Configura todos os aliases, scripts e cron jobs automaticamente.
 - Após rodar o script, a máquina estará pronta para executar os comandos do projeto sem necessidade de configuração manual.
 
