@@ -67,11 +67,11 @@ Após clonar o repositório Execute o seguinte comando para configurar o ambient
 
 ```mermaid
 graph TD;
-    A[.] --> B[configurarAmbiente.sh]
-    A --> C[aczginit.sh]
-    A --> D[aczgfinish.sh]
-    A --> E[aczg_cron_ci.sh]
-    A --> F[init_aczg_project.sh]
+    A[.] --> B[env_config.sh]
+    A --> C[finish.sh]
+    A --> D[init_project.sh]
+    A --> E[init.sh]
+    A --> F[pipeline.sh]
     A --> G[README.md]
 ```
 
